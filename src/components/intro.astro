@@ -1,0 +1,29 @@
+---
+import { Icon } from "astro-icon/components";
+import ContentSection from "~/components/content-section.astro";
+---
+
+<ContentSection title="Trabaja con la mejor carne." id="intro">
+  <Fragment slot="lead">
+    Del campo a tu mesa: experimenta la diferencia de la carne
+    <span class="text-primary"> de alta calidad. </span> 
+    <span class="text-primary"></span>
+    
+  </Fragment>
+  <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <a
+      href="https://docs.astro.build/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon name="mdi:telescope" class="size-8" />
+      <span>Mision</span>
+    </a>
+    <a
+      href="https://astro.new/"
+      class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
+    >
+      <Icon name="mdi:rocket" class="size-8" />
+      <span>Vision</span>
+    </a>
+  </div>
+</ContentSection>
