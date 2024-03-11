@@ -8,7 +8,6 @@
 
 </div>
 
-![Screenshots of Astro Landing Page](screenshots.jpg)
 
 ## Features
 
